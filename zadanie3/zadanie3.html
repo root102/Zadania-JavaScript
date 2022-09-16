@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2> Rodzaje okieniek:</h2>
+    <ul>
+        <li>Okienko alert – wyświetlająca okienko dialogowe z informacją i przyciskiem OK</li>
+        <li>Okienko prompt – generująca okno, w którym użytkownik może wpisać wartość, zwracaną następnie do programu.
+        </li>
+        <li>Okienko confirm służy do tego, aby użytkownik coś potwierdził (stąd nazwa confirm).</li>
+    </ul>
+    <h2> Konwersji liczb:</h2>
+    Wczytanie zmiennej z użyciem prompt wykonywane jest jako ciąg znaków dlatego konieczna jest
+    konwersji z ciągu znaków na wartości liczbowe aby wykonywac obliczenia.
+    parseFloat(zmienna) - konwersja zmiennej do typu float
+    parseInt(zmienna) - konwersja zmiennej do typu int (liczbowego)
+    toString(zmienna) - konwersja zmiennej do typu łańcuchowego
+    <br>
+    <h2>Typy zmiennych w Javascript</h2>
+    W JavaScript nie ma możliwości definiowania różnych typów zmiennych tak jak w C++, typy
+    zmiennych są definiowane w trakcie ich przypisywania.
+    Podstawowe zmienne liczbowe w JavaScript to:<br>
+    Number -> Typ liczbowy<br>
+    <ul>
+        <li>zmienna całkowite</li>
+        <li>zmiennoprzecinkowe</li>
+    </ul><br>
+    String -> Typ tekstowy<br>
+    Boolea -> Typ logiczny<br>
+    Null -> Pusta zawartość<br>
+    Undefined -> Typ niezidentyfikowany<br>
+    Object -> Obiekt<br>
+    <h2>Przy nadawaniu nazw zmiennym należy przestrzegać pewnych zasad:</h2>
+    <br> 1. Nazwa zmiennej musi się zaczynać od litery, znaku "$" lub "_", może zawierać tylko litery (bez
+    polskich znaków), cyfry oraz "$" i "_".
+    9
+    Poprawne nazwy zmiennych: zmienna1, $wynik, _rozmiar, wynik1, Rekord, $_gracz
+    Błędne nazwy zmiennych: 1zmienna, wynik gry, wysokosc&szerokosc, wynik.rekord, &gracz,
+    wysokość, imie+nazwisko.<br>
+    2. Wielkość liter ma znaczenie.
+    Rekord i rekord to dwie różne zmienne! Jest to bardzo częsta przyczyna błędów w kodzie
+    początkujących programistów.<br>
+    3. Należy nie używać słów kluczowych JavaScript jako nazw zmiennych
+</body>
+
+</html>

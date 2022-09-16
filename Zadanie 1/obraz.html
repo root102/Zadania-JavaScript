@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <script type="text/javascript">
+        function okno_zamknij_Zdrojewski() {
+            window.close()
+        }
+    </script>
+</head>
+
+<body>
+    <!-- opis obrazka /* tekst opis obrazka
+    - zastąp odpowiedziami/patrz poniżej Teoria */ -->
+    -kiedy powstał- Język JavaScript został opracowany w 1995 roku<br>
+    -dlaczego jest to język skryptowy- m. Nie musi
+    zostać skompilowany do kodu maszynowego, aby można było zobaczyć efekty jego działania. <br>
+    -gdzie jest wykonywany JS (klient lub serwer)- Najczęściej spotykanym zastosowaniem języka JavaScript są strony
+    internetowe. Skrypty te służą najczęściej do zapewnienia interakcji poprzez reagowanie na zdarzenia, walidacji
+    danych wprowadzanych w formularzach lub tworzenia złożonych efektów wizualnych.<br>
+    -dlaczego jest to bezpieczne narzędzie<br>
+    &lsaquo; input type="button" name="przycisk" value="Nowa Strona" onclick="WinOpen(' ')"&rsaquo;- otwiera nowe okno
+    przeglądarki<br>
+    <textarea
+        style="width: 1000px;">window.open("obraz.html","okienko","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");</textarea><br>
+    Wyjaśnienie <br>
+    toolbar=no - np. ukrywa przyciski katalogów<br>
+    directories=no, - ukrywa przycisk katalogów<br>
+    menubar=no, -menu przeglądarki jest nie widoczne<br>
+    height=280,- wysokość 280<br>
+    width=160,- szerokość 160<br>
+    top=200,- ustawia położenie okna względem góry ekranu<br>
+    left=200 - ustawia położenie okna względem lewej strony ekranu<br>
+    <img src="obraz1.gif" />
+    <input type="button" value="zamknij okno" onclick="okno_zamknij_Zdrojewski()" />
+</body>
+
+</html>
