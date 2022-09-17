@@ -13,25 +13,99 @@
             window.open("Zadanie2/zadanie2.html", "_blank");
         } function WinOpen_Zdrojewski_3() {
             window.open("Zadanie3/zadanie3.html", "_blank");
-        } function WinOpen_Zdrojewski_4() {
+        } function WinOpen_Zdrojewski_3_kod() {
+            window.open("Zadanie3/zadanie3_kod.html", "_blank");
+        }
+        function WinOpen_Zdrojewski_4() {
             window.open("Zadanie4/zadanie4.html", "_blank");
-        } function WinOpen_Zdrojewski_5() {
+        } function WinOpen_Zdrojewski_4_kod() {
+            window.open("Zadanie4/zadanie4_kod.html", "_blank");
+        }
+        function WinOpen_Zdrojewski_5() {
             window.open("Zadanie5/zadanie5.html", "_blank");
-        } function WinOpen_Zdrojewski_6() {
+        }
+        function WinOpen_Zdrojewski_5_kod() {
+            window.open("Zadanie5/zadanie5_kod.html", "_blank");
+        }
+        function WinOpen_Zdrojewski_6() {
             window.open("Zadanie6/zadanie6.html", "_blank");
+        } function WinOpen_Zdrojewski_6_kod() {
+            window.open("Zadanie6/zadanie6_kod.html", "_blank");
+        }
+        function WinOpen_Zdrojewski_7() {
+            window.open("Zadanie7/zadanie7.html", "_blank");
+        } function WinOpen_Zdrojewski_7_kod() {
+            window.open("Zadanie7/zadanie7_kod.html", "_blank");
+        }
+        function WinOpen_Zdrojewski_8() {
+            window.open("Zadanie8/zadanie8.html", "_blank");
+        }
+        function WinOpen_Zdrojewski_8_kod() {
+            window.open("Zadanie8/zadanie8_kod.html", "_blank");
         }
     </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Anonymous Pro', monospace;
+            background-color: rgb(160, 158, 158);
+        }
+
+        h1 {
+            font-size: 50px;
+            margin: 50px;
+        }
+
+        .buttons {
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+            transition-duration: 0.4s;
+        }
+
+        input {
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            background-color: white;
+            color: black;
+            border: 2px solid #555555;
+        }
+
+        input:hover {
+            background-color: #555555;
+            color: white;
+        }
+    </style>
 </head>
 
 <body>
     <form>
         <h1>Filip Zdrojewski 3G_1</h1>
-        <input type="button" name="przycisk" value="Zadanie 1" onclick="WinOpen_Zdrojewski(' ')">
-        <input type="button" name="przycisk" value="Zadanie 2" onclick="WinOpen_Zdrojewski_2(' ')">
-        <input type="button" name="przycisk" value="Zadanie 3" onclick="WinOpen_Zdrojewski_3(' ')">
-        <input type="button" name="przycisk" value="Zadanie 4" onclick="WinOpen_Zdrojewski_4(' ')">
-        <input type="button" name="przycisk" value="Zadanie 5" onclick="WinOpen_Zdrojewski_5(' ')">
-        <input type="button" name="przycisk" value="Zadanie 6" onclick="WinOpen_Zdrojewski_6(' ')">
+        <div class="buttons">
+            <input type="button" name="przycisk" value="Zadanie 1" onclick="WinOpen_Zdrojewski(' ')">
+            <input type="button" name="przycisk" value="Zadanie 2" onclick="WinOpen_Zdrojewski_2(' ')">
+            <input type="button" name="przycisk" value="Zadanie 3" onclick="WinOpen_Zdrojewski_3(' ')">
+            <input type="button" name="przycisk" value="Zadanie 3 kod" onclick="WinOpen_Zdrojewski_3_kod(' ')">
+            <input type="button" name="przycisk" value="Zadanie 4" onclick="WinOpen_Zdrojewski_4(' ')">
+            <input type="button" name="przycisk" value="Zadanie 4 kod" onclick="WinOpen_Zdrojewski_4_kod(' ')">
+            <input type="button" name="przycisk" value="Zadanie 5" onclick="WinOpen_Zdrojewski_5(' ')">
+            <input type="button" name="przycisk" value="Zadanie 5 kod" onclick="WinOpen_Zdrojewski_5_kod(' ')">
+            <input type="button" name="przycisk" value="Zadanie 6" onclick="WinOpen_Zdrojewski_6(' ')">
+            <input type="button" name="przycisk" value="Zadanie 6 kod" onclick="WinOpen_Zdrojewski_6_kod(' ')">
+            <input type="button" name="przycisk" value="Zadanie 7" onclick="WinOpen_Zdrojewski_7(' ')">
+            <input type="button" name="przycisk" value="Zadanie 7 kod" onclick="WinOpen_Zdrojewski_7_kod(' ')">
+            <input type="button" name="przycisk" value="Zadanie 8" onclick="WinOpen_Zdrojewski_8(' ')">
+            <input type="button" name="przycisk" value="Zadanie 8 kod " onclick="WinOpen_Zdrojewski_8_kod(' ')">
+        </div>
     </form>
 </body>
 
